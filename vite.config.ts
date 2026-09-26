@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icon.svg', 'apple-touch-icon.svg'],
+      includeAssets: ['icon-192.png', 'apple-touch-icon.png'],
       manifest: {
         id: '/',
         name: 'लसीकरण ड्यू लिस्ट',
@@ -22,21 +22,21 @@ export default defineConfig({
         scope: '/',
         icons: [
           {
-            src: '/pwa-192x192.svg',
+            src: '/icon-192.png',
             sizes: '192x192',
-            type: 'image/svg+xml',
+            type: 'image/png',
             purpose: 'any',
           },
           {
-            src: '/pwa-512x512.svg',
+            src: '/icon-512.png',
             sizes: '512x512',
-            type: 'image/svg+xml',
+            type: 'image/png',
             purpose: 'any',
           },
           {
-            src: '/pwa-maskable-512x512.svg',
+            src: '/maskable-512.png',
             sizes: '512x512',
-            type: 'image/svg+xml',
+            type: 'image/png',
             purpose: 'maskable',
           },
         ],
