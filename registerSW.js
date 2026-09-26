@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/asha-vaccination-app/sw.js', { scope: '/asha-vaccination-app/' })})}
