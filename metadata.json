@@ -1,0 +1,8 @@
+{
+  "name": "लसीकरण ड्यू लिस्ट",
+  "description": "आशा सेविका आणि आरोग्य सेवक यांच्यासाठी लसीकरण ड्यू लिस्ट संकलन ॲप.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
